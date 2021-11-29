@@ -2,7 +2,6 @@ function updateMap() {
      fetch('https://akashmarkad.github.io/CoronaVirus-cases-on-world-map/data.json')
     .then(response => response.json())
     .then(rsp => {
-        // console.log(rsp.data)
         rsp.data.forEach(element => {
             latitude = element.latitude
             longitude = element.longitude
