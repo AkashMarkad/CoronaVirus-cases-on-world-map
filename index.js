@@ -1,5 +1,5 @@
 function updateMap() {
-    fetch('https://akashmarkad.github.io/CoronaVirus-cases-on-world-map/data.json')
+     fetch('https://akashmarkad.github.io/CoronaVirus-cases-on-world-map/data.json')
     .then(response => response.json())
     console.log(response);
     .then(rsp => {
