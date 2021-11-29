@@ -1,7 +1,6 @@
 function updateMap() {
      fetch('https://akashmarkad.github.io/CoronaVirus-cases-on-world-map/data.json')
     .then(response => response.json())
-    console.log(response);
     .then(rsp => {
         // console.log(rsp.data)
         rsp.data.forEach(element => {
